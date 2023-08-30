@@ -21,4 +21,20 @@ public class ConversorView extends JOptionPane{
 				"NVDA a USD", "NKE a USD", "DUFN a USD"};
 	}
 
+	public String[] getOpcionesConversion() {
+		return opcionesConversion;
+	}
+
+	public String[] getConversionesMoneda() {
+		return conversionesMoneda;
+	}
+
+	public String[] getConversionesCripto() {
+		return conversionesCripto;
+	}
+
+	public String[] getConversionesStock() {
+		return conversionesStock;
+	}
+
 }
