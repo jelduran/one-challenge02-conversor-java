@@ -1,5 +1,7 @@
 package com.one.challenge.conversor.view;
 
-public class ConversorView {
+import javax.swing.JOptionPane;
+
+public class ConversorView extends JOptionPane{
 
 }
