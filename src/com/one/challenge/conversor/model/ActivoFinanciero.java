@@ -25,4 +25,24 @@ public class ActivoFinanciero {
 		this.activoRef = activoFinanciero != null ? activoFinanciero : null;
 	}
 
+	public String getTipo() {
+		return tipo;
+	}
+
+	public String getCodigo() {
+		return codigo;
+	}
+
+	public char getSimbolo() {
+		return simbolo;
+	}
+
+	public double getPrecio() {
+		return precio;
+	}
+
+	public ActivoFinanciero getActivoRef() {
+		return activoRef;
+	};
+
 }
