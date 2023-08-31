@@ -27,4 +27,4 @@ replay_pid*
 /bin/
 
 # test
-src/com/one/challenge/conversor/test/TestClasesConversor.java
+src/com/one/challenge/conversor/test/*
