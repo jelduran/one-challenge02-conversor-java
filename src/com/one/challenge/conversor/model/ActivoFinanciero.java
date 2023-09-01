@@ -2,11 +2,11 @@ package com.one.challenge.conversor.model;
 
 public class ActivoFinanciero {
 	
-	private String tipo;
-	private String codigo;
-	private char simbolo;
-	private double precio;
-	private ActivoFinanciero activoRef;
+	protected String tipo;
+	protected String codigo;
+	protected char simbolo;
+	protected double precio;
+	protected ActivoFinanciero activoRef;
 
 	public ActivoFinanciero() {
 		this.tipo = "Moneda";
