@@ -14,7 +14,7 @@ public class ActivoFinanciero {
 		this.codigo = codigo;
 		this.simbolo = simbolo;
 		this.precio = activoFinanciero != null ? precio : 0.0;
-		this.activoRef = activoFinanciero != null ? activoFinanciero : null;
+		this.activoRef = activoFinanciero != null ? activoFinanciero : this;
 	}
 
 	public String getTipo() {
