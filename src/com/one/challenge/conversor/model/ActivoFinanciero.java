@@ -8,17 +8,9 @@ public class ActivoFinanciero {
 	protected double precio;
 	protected ActivoFinanciero activoRef;
 
-	public ActivoFinanciero() {
-		this.tipo = "Moneda";
-		this.codigo = "USD";
-		this.simbolo = '$';
-		this.precio = 1;
-		this.activoRef = this;
-	}
-
-	public ActivoFinanciero(String tipo, String codigo, char simbolo, double precio,
+	public ActivoFinanciero(String codigo, char simbolo, double precio,
 			ActivoFinanciero activoFinanciero) {
-		this.tipo = tipo;
+		this.tipo = "activo";
 		this.codigo = codigo;
 		this.simbolo = simbolo;
 		this.precio = activoFinanciero != null ? precio : 0.0;
