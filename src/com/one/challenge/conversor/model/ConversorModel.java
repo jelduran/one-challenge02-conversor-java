@@ -35,4 +35,22 @@ public class ConversorModel {
 		stocks[4] = new ActivoStock("AAPL", '\u2191', 0, activoBase);
 		stocks[4] = new ActivoStock("MSFT", '\u2191', 0, activoBase);
 	}
+
+	public ActivoFinanciero[] getMonedas() {
+		return monedas;
+	}
+
+	public ActivoFinanciero[] getCriptomonedas() {
+		return criptomonedas;
+	}
+
+	public ActivoFinanciero[] getStocks() {
+		return stocks;
+	}
+
+	public ActivoFinanciero getActivoBase() {
+		return activoBase;
+	}
+	
+	
 }
