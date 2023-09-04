@@ -13,7 +13,7 @@ public class ActivoFinanciero {
 		this.tipo = "activo";
 		this.codigo = codigo;
 		this.simbolo = simbolo;
-		this.precio = activoFinanciero != null ? precio : 0.0;
+		this.precio = precio;
 		this.activoRef = activoFinanciero != null ? activoFinanciero : this;
 	}
 
