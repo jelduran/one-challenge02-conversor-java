@@ -2,11 +2,11 @@ package com.one.challenge.conversor.model;
 
 public class ConversorModel {
 
-	ActivoFinanciero[] monedas;
-	ActivoFinanciero[] criptomonedas;
-	ActivoFinanciero[] stocks;
+	private ActivoFinanciero[] monedas;
+	private ActivoFinanciero[] criptomonedas;
+	private ActivoFinanciero[] stocks;
 	
-	ActivoFinanciero activoBase;
+	private ActivoFinanciero activoBase;
 	
 	public ConversorModel() {
 		
