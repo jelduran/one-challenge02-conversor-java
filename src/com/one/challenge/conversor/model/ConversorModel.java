@@ -51,6 +51,15 @@ public class ConversorModel {
 	public ActivoFinanciero getActivoBase() {
 		return activoBase;
 	}
+
+	public double convertir(double cantidad, ActivoFinanciero activoOrigen, ActivoFinanciero activoDestino) {
+		if (activoOrigen.getActivoRef().getCodigo() == activoDestino.getActivoRef().getCodigo()) {
+			double factorConversion = activoOrigen.precio / activoDestino.precio;
+			return cantidad * factorConversion;
+		} else {
+			return 0.0;
+		}
+	}
 	
 	
 }

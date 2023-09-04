@@ -36,14 +36,5 @@ public class ActivoFinanciero {
 	public ActivoFinanciero getActivoRef() {
 		return activoRef;
 	};
-
-	public double convertirA(double cantidad, ActivoFinanciero activo) {
-		if (activo.getActivoRef().getCodigo() == this.getActivoRef().getCodigo()) {
-			double factorConversion = this.precio / activo.precio;
-			return cantidad * factorConversion;
-		} else {
-			return 0.0;
-		}
-	}
 	
 }
